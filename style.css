@@ -1,0 +1,47 @@
+body {
+    margin: 0%;
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+   flex-direction: column; 
+}
+
+.box{
+    /*margin: 0% 15% 0%;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    /*flex-direction: column; */
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.unclicked{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: 2.5%;
+    width: 15%;
+    background-color: rgba(50, 50, 50, 0.9);
+}
+
+.clicked{
+    box-shadow: 0 0 12px 12px rgba(0, 255, 0, 0.2);
+    text-align: center;
+    align-self: center;
+    color: yellow;
+    font-size: 50px;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: 1.5%;
+    width: 17%;
+    background-color: rgba(50, 50, 50, 0.9);
+}
